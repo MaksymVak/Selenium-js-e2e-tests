@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://MaksymVak.github.io/Selenium-js-e2e-tests",
+  "buildOrder" : 9,
+  "buildName" : "GitHub Actions Run #3394276085",
+  "buildUrl" : "https://github.com/MaksymVak/Selenium-js-e2e-tests/actions/runs/3394276085",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://MaksymVak.github.io/Selenium-js-e2e-tests/9/"
+} ]

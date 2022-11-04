@@ -1,0 +1,74 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "test",
+    "children" : [ {
+      "name" : "TC-01 - Registration on the website Redmine.com",
+      "uid" : "8a57593c8fbf4da7",
+      "parentUid" : "ff2b04dbb9c449a4d40723f51d841925",
+      "status" : "failed",
+      "time" : {
+        "start" : 1667569569873,
+        "stop" : 1667569578647,
+        "duration" : 8774
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-02 - Authorization on the website Redmine.com",
+      "uid" : "c6ac89fc76738bca",
+      "parentUid" : "ff2b04dbb9c449a4d40723f51d841925",
+      "status" : "failed",
+      "time" : {
+        "start" : 1667569578647,
+        "stop" : 1667569582265,
+        "duration" : 3618
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-03 - Password recovery",
+      "uid" : "d57e8ff14d725a34",
+      "parentUid" : "ff2b04dbb9c449a4d40723f51d841925",
+      "status" : "failed",
+      "time" : {
+        "start" : 1667569582265,
+        "stop" : 1667569585096,
+        "duration" : 2831
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-04 - Testing the search",
+      "uid" : "7dae3e3658ea6e47",
+      "parentUid" : "ff2b04dbb9c449a4d40723f51d841925",
+      "status" : "passed",
+      "time" : {
+        "start" : 1667569585096,
+        "stop" : 1667569586260,
+        "duration" : 1164
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-05 - Checking the forum",
+      "uid" : "677a86f70f97dca4",
+      "parentUid" : "ff2b04dbb9c449a4d40723f51d841925",
+      "status" : "passed",
+      "time" : {
+        "start" : 1667569586261,
+        "stop" : 1667569587851,
+        "duration" : 1590
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ff2b04dbb9c449a4d40723f51d841925"
+  } ],
+  "name" : "suites"
+}

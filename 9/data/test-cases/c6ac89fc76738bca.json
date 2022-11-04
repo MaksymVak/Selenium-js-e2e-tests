@@ -1,0 +1,73 @@
+{
+  "uid" : "c6ac89fc76738bca",
+  "name" : "TC-02 - Authorization on the website Redmine.com",
+  "fullName" : "test.TC-02 - Authorization on the website Redmine.com",
+  "historyId" : "89c89db76ad662214b28722a8947372a",
+  "time" : {
+    "start" : 1667569578647,
+    "stop" : 1667569582265,
+    "duration" : 3618
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected 'Invalid user or password' to include 'Неправильне'",
+  "statusTrace" : "AssertionError: expected 'Invalid user or password' to include 'Неправильне'\n                    at Context.<anonymous> (tests/redmine.spec.js:29:50)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "testClass",
+    "value" : "test"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC-02 - Authorization on the website Redmine.com"
+  }, {
+    "name" : "package",
+    "value" : "test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "393ee28c01a6a4db",
+        "reportUrl" : "https://MaksymVak.github.io/Selenium-js-e2e-tests/8//#testresult/393ee28c01a6a4db",
+        "status" : "failed",
+        "statusDetails" : "expected 'Invalid user or password' to include 'Неправильне'",
+        "time" : {
+          "start" : 1667569478640,
+          "stop" : 1667569483348,
+          "duration" : 4708
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c6ac89fc76738bca.json",
+  "parameterValues" : [ ]
+}

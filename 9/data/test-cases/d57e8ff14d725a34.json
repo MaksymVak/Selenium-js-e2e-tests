@@ -1,0 +1,73 @@
+{
+  "uid" : "d57e8ff14d725a34",
+  "name" : "TC-03 - Password recovery",
+  "fullName" : "test.TC-03 - Password recovery",
+  "historyId" : "f98ab5ccbd76827e23fae54f9617f33b",
+  "time" : {
+    "start" : 1667569582265,
+    "stop" : 1667569585096,
+    "duration" : 2831
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected 'Unknown user.' to include 'Невідомий'",
+  "statusTrace" : "AssertionError: expected 'Unknown user.' to include 'Невідомий'\n                    at Context.<anonymous> (tests/redmine.spec.js:36:50)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "testClass",
+    "value" : "test"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC-03 - Password recovery"
+  }, {
+    "name" : "package",
+    "value" : "test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "da2e5f8809950255",
+        "reportUrl" : "https://MaksymVak.github.io/Selenium-js-e2e-tests/8//#testresult/da2e5f8809950255",
+        "status" : "failed",
+        "statusDetails" : "expected 'Unknown user.' to include 'Невідомий'",
+        "time" : {
+          "start" : 1667569483349,
+          "stop" : 1667569488060,
+          "duration" : 4711
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d57e8ff14d725a34.json",
+  "parameterValues" : [ ]
+}

@@ -1,4 +1,4 @@
-name: Wdio test run
+name: Selenium test run
 
 on:
   workflow_dispatch:

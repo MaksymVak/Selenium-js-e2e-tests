@@ -1,0 +1,52 @@
+{
+  "uid" : "7f7926bf65ce7d94",
+  "name" : "TC-01 - Registration on the website Redmine.com",
+  "fullName" : "test.TC-01 - Registration on the website Redmine.com",
+  "historyId" : "96525880eca7e1a3fcaac4bc1177026d",
+  "time" : {
+    "start" : 1667569471269,
+    "stop" : 1667569478640,
+    "duration" : 7371
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected 'Account was successfully created. An …' to include 'Обліковий'",
+  "statusTrace" : "AssertionError: expected 'Account was successfully created. An …' to include 'Обліковий'\n                    at Context.<anonymous> (tests/redmine.spec.js:23:43)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "testClass",
+    "value" : "test"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC-01 - Registration on the website Redmine.com"
+  }, {
+    "name" : "package",
+    "value" : "test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7f7926bf65ce7d94.json",
+  "parameterValues" : [ ]
+}

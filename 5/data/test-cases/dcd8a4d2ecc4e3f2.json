@@ -1,0 +1,52 @@
+{
+  "uid" : "dcd8a4d2ecc4e3f2",
+  "name" : "TC-03 - Password recovery",
+  "fullName" : "test.TC-03 - Password recovery",
+  "historyId" : "f98ab5ccbd76827e23fae54f9617f33b",
+  "time" : {
+    "start" : 1667568834539,
+    "stop" : 1667568837539,
+    "duration" : 3000
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected 'Unknown user.' to include 'Невідомий'",
+  "statusTrace" : "AssertionError: expected 'Unknown user.' to include 'Невідомий'\n                    at Context.<anonymous> (tests/redmine.spec.js:36:50)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "testClass",
+    "value" : "test"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC-03 - Password recovery"
+  }, {
+    "name" : "package",
+    "value" : "test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "dcd8a4d2ecc4e3f2.json",
+  "parameterValues" : [ ]
+}

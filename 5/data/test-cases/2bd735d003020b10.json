@@ -1,0 +1,46 @@
+{
+  "uid" : "2bd735d003020b10",
+  "name" : "TC-04 - Testing the search",
+  "fullName" : "test.TC-04 - Testing the search",
+  "historyId" : "b8cde9c53bcac57829828ac044956b5e",
+  "time" : {
+    "start" : 1667568837539,
+    "stop" : 1667568839081,
+    "duration" : 1542
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "testClass",
+    "value" : "test"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC-04 - Testing the search"
+  }, {
+    "name" : "package",
+    "value" : "test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2bd735d003020b10.json",
+  "parameterValues" : [ ]
+}

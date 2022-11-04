@@ -1,0 +1,46 @@
+{
+  "uid" : "d9c037ea44ef2be6",
+  "name" : "TC-05 - Checking the forum",
+  "fullName" : "test.TC-05 - Checking the forum",
+  "historyId" : "b5032c38418f353b1c7ee1719f499f29",
+  "time" : {
+    "start" : 1667568839081,
+    "stop" : 1667568841128,
+    "duration" : 2047
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "testClass",
+    "value" : "test"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC-05 - Checking the forum"
+  }, {
+    "name" : "package",
+    "value" : "test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d9c037ea44ef2be6.json",
+  "parameterValues" : [ ]
+}

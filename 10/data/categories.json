@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected 'Account was successfully created. An …' to include 'Обліковий'",
+      "children" : [ {
+        "name" : "TC-01 - Registration on the website Redmine.com",
+        "uid" : "fbe98b2eeff60df1",
+        "parentUid" : "09b8996f9c2215c9941053222aa1fef8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1667569908929,
+          "stop" : 1667569915760,
+          "duration" : 6831
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "09b8996f9c2215c9941053222aa1fef8"
+    }, {
+      "name" : "expected 'Invalid user or password' to include 'Неправильне'",
+      "children" : [ {
+        "name" : "TC-02 - Authorization on the website Redmine.com",
+        "uid" : "941864ce2af0b989",
+        "parentUid" : "c74f577cf1ded0c42089422b91837da1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1667569915760,
+          "stop" : 1667569922054,
+          "duration" : 6294
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c74f577cf1ded0c42089422b91837da1"
+    }, {
+      "name" : "expected 'Unknown user.' to include 'Невідомий'",
+      "children" : [ {
+        "name" : "TC-03 - Password recovery",
+        "uid" : "cc7a29e611d3c291",
+        "parentUid" : "34ff95d3d1b9212bf212b7db2d1935f4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1667569922054,
+          "stop" : 1667569925767,
+          "duration" : 3713
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "34ff95d3d1b9212bf212b7db2d1935f4"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

@@ -1,0 +1,75 @@
+{
+  "uid" : "c2439ff857d49c91",
+  "name" : "TC-05 - Checking the forum",
+  "fullName" : "test.TC-05 - Checking the forum",
+  "historyId" : "b5032c38418f353b1c7ee1719f499f29",
+  "time" : {
+    "start" : 1667569927204,
+    "stop" : 1667569929291,
+    "duration" : 2087
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "testClass",
+    "value" : "test"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC-05 - Checking the forum"
+  }, {
+    "name" : "package",
+    "value" : "test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "677a86f70f97dca4",
+        "reportUrl" : "https://MaksymVak.github.io/Selenium-js-e2e-tests/9//#testresult/677a86f70f97dca4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1667569586261,
+          "stop" : 1667569587851,
+          "duration" : 1590
+        }
+      }, {
+        "uid" : "f7bfa72da2267c35",
+        "reportUrl" : "https://MaksymVak.github.io/Selenium-js-e2e-tests/8//#testresult/f7bfa72da2267c35",
+        "status" : "passed",
+        "time" : {
+          "start" : 1667569489574,
+          "stop" : 1667569491430,
+          "duration" : 1856
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c2439ff857d49c91.json",
+  "parameterValues" : [ ]
+}

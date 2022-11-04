@@ -1,5 +1,5 @@
 # Selenium Webdriver e2e-tests with JavaScript and Allure report
-e2e test for Selenium Webdriver with usage Allure Plugin.  View <a href="https://maksymvak.github.io/Selenium-e2e-tests/">report</a>
+e2e test for Selenium Webdriver with usage Allure Plugin.  View <a href="https://maksymvak.github.io/Selenium-js-e2e-tests/">report</a>
 
 ## Setup
 

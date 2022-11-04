@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests --reporter mocha-allure-reporter",
+    "test": "mocha tests",
     "allure:serve": "npx allure serve allure-results",
     "allure:generate": "npx allure generate allure-results --clean",
     "allure:report": "allure generate allure-results --clean && allure open"

@@ -24,7 +24,7 @@ browsers = {
             options.addArguments('--lang=uk')
             options.addArguments("--headless")
             options.addArguments("--disable-gpu")
-            options.addArguments("--incognito")
+/*             options.addArguments("--incognito") */
             options.addArguments("--start-maximized")
             options.setChromeBinaryPath(require("puppeteer").executablePath())
             let driver = new webdriver.Builder().            

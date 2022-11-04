@@ -1,0 +1,74 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "test",
+    "children" : [ {
+      "name" : "TC-01 - Registration on the website Redmine.com",
+      "uid" : "1c5c4c495b4a70e7",
+      "parentUid" : "d662795e8d349f9b5595bf62f43ea7ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1667570820472,
+        "stop" : 1667570826468,
+        "duration" : 5996
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-02 - Authorization on the website Redmine.com",
+      "uid" : "ffb286b1a33e8983",
+      "parentUid" : "d662795e8d349f9b5595bf62f43ea7ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1667570826468,
+        "stop" : 1667570830078,
+        "duration" : 3610
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-03 - Password recovery",
+      "uid" : "174dae19a5eedff3",
+      "parentUid" : "d662795e8d349f9b5595bf62f43ea7ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1667570830078,
+        "stop" : 1667570833273,
+        "duration" : 3195
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-04 - Testing the search",
+      "uid" : "d12be4bffb5e8cbd",
+      "parentUid" : "d662795e8d349f9b5595bf62f43ea7ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1667570833273,
+        "stop" : 1667570834498,
+        "duration" : 1225
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-05 - Checking the forum",
+      "uid" : "bcebd791545c0d54",
+      "parentUid" : "d662795e8d349f9b5595bf62f43ea7ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1667570834498,
+        "stop" : 1667570835972,
+        "duration" : 1474
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d662795e8d349f9b5595bf62f43ea7ae"
+  } ],
+  "name" : "packages"
+}

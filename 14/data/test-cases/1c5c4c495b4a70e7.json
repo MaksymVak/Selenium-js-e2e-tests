@@ -1,0 +1,46 @@
+{
+  "uid" : "1c5c4c495b4a70e7",
+  "name" : "TC-01 - Registration on the website Redmine.com",
+  "fullName" : "test.TC-01 - Registration on the website Redmine.com",
+  "historyId" : "96525880eca7e1a3fcaac4bc1177026d",
+  "time" : {
+    "start" : 1667570820472,
+    "stop" : 1667570826468,
+    "duration" : 5996
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "testClass",
+    "value" : "test"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC-01 - Registration on the website Redmine.com"
+  }, {
+    "name" : "package",
+    "value" : "test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1c5c4c495b4a70e7.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,46 @@
+{
+  "uid" : "ffb286b1a33e8983",
+  "name" : "TC-02 - Authorization on the website Redmine.com",
+  "fullName" : "test.TC-02 - Authorization on the website Redmine.com",
+  "historyId" : "89c89db76ad662214b28722a8947372a",
+  "time" : {
+    "start" : 1667570826468,
+    "stop" : 1667570830078,
+    "duration" : 3610
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "testClass",
+    "value" : "test"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC-02 - Authorization on the website Redmine.com"
+  }, {
+    "name" : "package",
+    "value" : "test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ffb286b1a33e8983.json",
+  "parameterValues" : [ ]
+}

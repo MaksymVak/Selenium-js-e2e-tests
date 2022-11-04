@@ -1,0 +1,51 @@
+[ {
+  "uid" : "bcebd791545c0d54",
+  "name" : "TC-05 - Checking the forum",
+  "time" : {
+    "start" : 1667570834498,
+    "stop" : 1667570835972,
+    "duration" : 1474
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ffb286b1a33e8983",
+  "name" : "TC-02 - Authorization on the website Redmine.com",
+  "time" : {
+    "start" : 1667570826468,
+    "stop" : 1667570830078,
+    "duration" : 3610
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d12be4bffb5e8cbd",
+  "name" : "TC-04 - Testing the search",
+  "time" : {
+    "start" : 1667570833273,
+    "stop" : 1667570834498,
+    "duration" : 1225
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "174dae19a5eedff3",
+  "name" : "TC-03 - Password recovery",
+  "time" : {
+    "start" : 1667570830078,
+    "stop" : 1667570833273,
+    "duration" : 3195
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c5c4c495b4a70e7",
+  "name" : "TC-01 - Registration on the website Redmine.com",
+  "time" : {
+    "start" : 1667570820472,
+    "stop" : 1667570826468,
+    "duration" : 5996
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

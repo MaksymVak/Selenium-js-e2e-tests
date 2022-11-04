@@ -1,0 +1,46 @@
+{
+  "uid" : "174dae19a5eedff3",
+  "name" : "TC-03 - Password recovery",
+  "fullName" : "test.TC-03 - Password recovery",
+  "historyId" : "f98ab5ccbd76827e23fae54f9617f33b",
+  "time" : {
+    "start" : 1667570830078,
+    "stop" : 1667570833273,
+    "duration" : 3195
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "testClass",
+    "value" : "test"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC-03 - Password recovery"
+  }, {
+    "name" : "package",
+    "value" : "test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "174dae19a5eedff3.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,9 @@
+[ {
+  "buildOrder" : 4,
+  "reportUrl" : "https://MaksymVak.github.io/Selenium-js-e2e-tests/4/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 1,
+    "retry" : 0
+  }
+} ]

@@ -1,0 +1,52 @@
+{
+  "uid" : "258e807d9215d81f",
+  "name" : "TC-01 - Registration on the website Redmine.com",
+  "fullName" : "test.TC-01 - Registration on the website Redmine.com",
+  "historyId" : "96525880eca7e1a3fcaac4bc1177026d",
+  "time" : {
+    "start" : 1667558603438,
+    "stop" : 1667558606333,
+    "duration" : 2895
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: Chrome failed to start: exited abnormally.\n                  (unknown error: DevToolsActivePort file doesn't exist)\n                  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
+  "statusTrace" : "WebDriverError: unknown error: Chrome failed to start: exited abnormally.\n                  (unknown error: DevToolsActivePort file doesn't exist)\n                  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n                    at Object.throwDecodedError (node_modules/selenium-webdriver/lib/error.js:524:15)\n                    at parseHttpResponse (node_modules/selenium-webdriver/lib/http.js:587:13)\n                    at Executor.execute (node_modules/selenium-webdriver/lib/http.js:515:28)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "testClass",
+    "value" : "test"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC-01 - Registration on the website Redmine.com"
+  }, {
+    "name" : "package",
+    "value" : "test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "258e807d9215d81f.json",
+  "parameterValues" : [ ]
+}

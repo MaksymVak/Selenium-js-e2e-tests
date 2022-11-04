@@ -1,0 +1,11 @@
+[ {
+  "uid" : "258e807d9215d81f",
+  "name" : "TC-01 - Registration on the website Redmine.com",
+  "time" : {
+    "start" : 1667558603438,
+    "stop" : 1667558606333,
+    "duration" : 2895
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

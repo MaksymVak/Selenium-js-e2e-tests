@@ -21,7 +21,7 @@ browsers = {
     headlessChrome: {
         driverConfig: function(){
             let options = new chrome.Options()
-            options.addArguments('--lang=ua')
+            options.addArguments('--lang=uk')
             options.addArguments("--headless")
             options.addArguments("--disable-gpu")
             options.addArguments("--incognito")

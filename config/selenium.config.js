@@ -11,7 +11,7 @@ let addToPath = require('add-to-path')
 
 addToPath([__dirname + '\\drivers'])
 
-let browser = process.env.MOCHA_BROWSER || 'chrome'
+let browser = process.env.MOCHA_BROWSER || 'headlessChrome'
 
 driver = getDriverConfig(browser)
 

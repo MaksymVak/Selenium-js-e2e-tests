@@ -18,6 +18,7 @@
     "chai": "^4.3.6",
     "dotenv": "^16.0.3",
     "mocha-allure-reporter": "^1.4.0",
+    "puppeteer": "^19.2.2",
     "selenium-webdriver": "^4.5.0"
   }
 }

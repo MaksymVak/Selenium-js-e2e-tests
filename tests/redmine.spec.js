@@ -20,20 +20,20 @@ describe('test', function() {
 it('TC-01 - Registration on the website Redmine.com', async () => {
   await registerPage.userRegister()
   await registerPage.inputField(randomData.randomstring(10), "password-invalide", "password-invalide", randomData.randomstring(10), randomData.randomstring(10), randomData.makeEmail(), randomData.randomstring(10), '[value="uk"]')
-  expect(await registerPage.regMessage()).contains("Обліковий")
+  expect(await registerPage.regMessage()).contains("Account")
 })
 
 it('TC-02 - Authorization on the website Redmine.com', async () => {
   await authorizatPage.userAuthorizat()
   await authorizatPage.authorInputField(randomData.randomstring(10), randomData.randomstring(10))
-  expect(await authorizatPage.autorMessage()).to.include('Неправильне')
+  expect(await authorizatPage.autorMessage()).to.include('Invalid user')
 
 })
 
 it('TC-03 - Password recovery', async () => {
   await authorizatPage.userAuthorizat()
   await authorizatPage.lostPassword(randomData.makeEmail())
-  expect(await authorizatPage.autorMessage()).to.include('Невідомий')
+  expect(await authorizatPage.autorMessage()).to.include('Unknown user')
 })
 
 it('TC-04 - Testing the search', async () => {

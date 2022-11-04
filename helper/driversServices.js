@@ -21,9 +21,9 @@ browsers = {
     headlessChrome: {
         driverConfig: function(){
             let options = new chrome.Options()
-            options.addArguments('--lang=uk')
+            options.addArguments("--lang=uk")
             options.addArguments("--headless")
-/*             options.addArguments("--disable-gpu") */
+            options.addArguments("--disable-gpu")
             options.addArguments("--incognito")
             options.addArguments("--start-maximized")
             options.setChromeBinaryPath(require("puppeteer").executablePath())

@@ -1,0 +1,49 @@
+name: Wdio test run
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - 'main'
+jobs:
+  test_suite:
+      runs-on: ubuntu-latest
+      steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16.17.0'
+      - run: npm ci
+      - name: run test
+        run: npm run test:headles:chrome
+      - uses: actions/upload-artifact@master
+        with:
+          name: allure-results
+          path: allure-results
+          retention-days: 20
+
+      - name: Get Allure history
+        uses: actions/checkout@v2
+        if: always()
+        continue-on-error: true
+        with:
+          ref: gh-pages
+          path: gh-pages
+
+      - name: Allure Report with history
+        uses: simple-elf/allure-report-action@v1.6
+        if: always()
+        id: allure-report
+        with:
+          allure_results: allure-results
+          gh_pages: gh-pages
+          allure_report: allure-report
+          allure_history: allure-history
+          keep_reports: 20
+      - name: Deploy report to Github Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+          PERSONAL_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: allure-history

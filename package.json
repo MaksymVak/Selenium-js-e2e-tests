@@ -1,0 +1,23 @@
+{
+  "name": "selenium-js-e2e",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests --reporter mocha-allure-reporter",
+    "allure:serve": "npx allure serve allure-results",
+    "allure:generate": "npx allure generate allure-results --clean",
+    "allure:report": "allure generate allure-results --clean && allure open"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "add-to-path": "^1.1.2",
+    "allure-commandline": "^2.18.1",
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.3",
+    "mocha-allure-reporter": "^1.4.0",
+    "selenium-webdriver": "^4.5.0"
+  }
+}
